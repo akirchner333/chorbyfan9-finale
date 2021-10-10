@@ -178,7 +178,7 @@ def sharkAttacks
       acc[id][:modifiers] = (event["metadata"]["itemName"].split(" ").length - 1).clamp(0, 5)
     when 29
       # This is a coin announcement. She says "consumers" sometimes so I still get it
-      #  But it's not an attack so we don't use it
+      # But it's not an attack so we don't use it
     else
       p "Something went wrong"
       p event

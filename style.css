@@ -78,7 +78,6 @@ td{
 
   Bottom of the scroll is around 27000px
   Top is like 200
-
 */
 
 .picture{
@@ -161,11 +160,6 @@ td{
   animation-fill-mode: forwards;
   top: -30000px;
 }
-
-/*#scroll{
-  position:  relative;
-  top: -29900px;
-}*/
 
 @keyframes scroll{
   0%{
