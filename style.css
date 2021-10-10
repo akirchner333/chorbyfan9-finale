@@ -1,0 +1,178 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #000020;
+  color:  white;
+  text-align: center;
+}
+
+.title-card {
+  font-style: italic;
+}
+
+.small-text{
+  font-size: 25px;
+}
+
+.medium-text{
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+.table-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+h2{
+  font-size:  50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+table{
+  width:  100%;
+}
+
+td{
+  padding-bottom: 5px;
+}
+
+#lower-table{
+  font-size: 20px;
+}
+
+.name{
+  width:  50%;
+  text-align: right;
+}
+
+.rating {
+  text-align: right;
+  width:  80px;
+}
+
+.comment{
+  padding-left: 20px;
+  /*width: 400px;*/
+}
+
+.reason {
+  padding-left: 30px;
+}
+
+#jaws{
+  width: 100%;
+}
+
+/*
+
+  Bottom of the scroll is around 27000px
+  Top is like 200
+
+*/
+
+.picture{
+  position: absolute;
+}
+
+#picture_one{
+  left:  40px;
+  top: 2000px;
+  width: 430px;
+}
+
+#picture_two{
+  right:  200px;
+  top: 3750px;
+  width: 430px;
+}
+
+#picture_three{
+  left:  50px;
+  top: 6000px;
+  width: 430px;
+}
+
+#picture_four{
+  left:  70px;
+  top: 8230px;
+  width: 430px;
+}
+
+#picture_five{
+  right:  70px;
+  top: 9700px;
+  width: 430px;
+}
+
+#picture_six{
+  left:  70px;
+  top: 12000px;
+  width: 430px;
+}
+
+#picture_seven{
+  left:  50px;
+  top: 13900px;
+  width: 430px;
+}
+
+#picture_eight{
+  right:  50px;
+  top: 17500px;
+  width: 500px;
+}
+
+#picture_nine{
+  left:  50px;
+  top: 24700px;
+  width: 430px;
+}
+
+#picture_ten{
+  right: 150px;
+  top: 26000px;
+  width: 430px;
+}
+
+#picture_eleven{
+  left: 50px;
+  top: 27580;
+  width: 500px;
+}
+
+#scroll{
+  position:  relative;
+}
+
+.animate{
+  animation: scroll 513s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  top: -30000px;
+}
+
+/*#scroll{
+  position:  relative;
+  top: -29900px;
+}*/
+
+@keyframes scroll{
+  0%{
+    top: 0;
+  }
+
+  100%{
+    top: -29900px;
+  }
+}
